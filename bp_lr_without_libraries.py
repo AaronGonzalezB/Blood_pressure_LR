@@ -75,7 +75,7 @@ for i in range(nits):
         print("Epoch {}".format(i+1))
         print("    w: {:.1f}".format(w), " b: {:.1f}".format(b))
         print("    error: {}".format(error[i]))
-        print("=======================================") 
+        print("=======================================")
 
 # Graph results - Error aproximation and model
 plt.subplot(1,2,1)
@@ -89,6 +89,7 @@ plt.scatter(x,y)
 plt.plot(x,y_regr,'r')
 plt.xlabel('x')
 plt.ylabel('y')
+plt.title('Presión sistólica modelada')
 plt.show()
 
 # Prediction
